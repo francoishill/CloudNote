@@ -1,5 +1,5 @@
-CloudNote
-=========
+# CloudNote
+
 
 This is an application to make storing ideas, todolists, etc easy. It has drag-drop support and you can also choose any text file (.txt, .xml, etc) to open with CloudNote. The application will allow you to open the file (readonly or editable) or import it as a CloudNote.
 
@@ -12,8 +12,10 @@ Here are some features of CloudNote Desktop application
 - Detachable window
  - Has a "mini" mode
  - Also remembers its size and location
-- Status reporting when saving
 - Can archive items and also view them via right-click item on group
-- Makes use of a custom implementation of OAuth (http://en.wikipedia.org/wiki/OAuth) for security and controlling access permissions to your cloud notes
 - Zoom by using [Ctrl+Mousewheel]
 - Shortcut keys [Winkey+S] and [Winkey+Ctrl+S]
+<br/><br/>
+
+#### For those speaking in code...
+To protect permissions to your online notes we make use of a custom implementation of [OAuth](http://en.wikipedia.org/wiki/OAuth). Communication is always encrypted.
